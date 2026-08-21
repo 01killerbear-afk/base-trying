@@ -1,4 +1,19 @@
-import { collection, getDocs, addDoc, updateDoc, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+import { getFirestore, collection, getDocs, addDoc, updateDoc, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+
+// Initialize Firebase configuration for this page
+const firebaseConfig = {
+  apiKey: "AIzaSyCrGB_L_18KW1ANjj70-CTlnuXMmoNbIN4",
+  authDomain: "training-app-8e422.firebaseapp.com",
+  projectId: "training-app-8e422",
+  storageBucket: "training-app-8e422.firebasestorage.app",
+  messagingSenderId: "639003722761",
+  appId: "1:639003722761:web:7a8689e114e31698eea4d8",
+  measurementId: "G-ZB0422TCGK"
+};
+
+const app = initializeApp(firebaseConfig);
+window.db = getFirestore(app);
 
 // --- Global Caches for Editing ---
 let loadedCourses = [];
