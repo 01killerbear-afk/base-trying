@@ -402,3 +402,9 @@ document.addEventListener("DOMContentLoaded", () => {
     loadCurrentReadingPageToDOM();
     loadTable();
 });
+
+// --- Expose Functions Globally for Table Buttons ---
+window.editHtmlCourse = editHtmlCourse;
+window.editReading = editReading;
+window.editQuiz = editQuiz;
+window.deleteItem = deleteItem;
