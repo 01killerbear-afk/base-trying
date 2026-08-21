@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="createnew.css">
+</head>
+<body>
+    <a href="index.html">Back to Home</a>
+
+    <form id="quiz-builder">
+        <h2>Quiz Builder (<span id="quiz-counter">Question 1</span>)</h2>
+        <input type="text" id="quiz-title" placeholder="Quiz Name / Category">
+        <textarea id="quiz-question" placeholder="Paste your question here"></textarea>
+        
+        <label for="quiz-image-upload">Upload Image:</label>
+        <input type="file" id="quiz-image-upload" accept="image/*">
+        <img id="quiz-image-preview" src="" style="max-width: 200px; display: none;">
+        
+        <label>Choices:</label>        
+        <input type="text" id="quiz-option-0" placeholder="Choice A">
+        <input type="text" id="quiz-option-1" placeholder="Choice B">
+        <input type="text" id="quiz-option-2" placeholder="Choice C">
+        <input type="text" id="quiz-option-3" placeholder="Choice D">
+        
+        <label for="quiz-answer-select">Correct Answer Index (0-3):</label>
+        <select id="quiz-answer-select">
+            <option value="0">A (Index 0)</option>
+            <option value="1">B (Index 1)</option>
+            <option value="2">C (Index 2)</option>
+            <option value="3">D (Index 3)</option>
+        </select>
+
+        <label for="quiz-explanation">Explanation:</label>
+        <input type="text" id="quiz-explanation" placeholder="Paste your explanation here">
+
+        <div class="form-group">
+            <label for="question-page-ref">Matching Reading Page (Optional):</label>
+           <input type="number" id="question-page-ref" min="1" placeholder="e.g., 1 for Page 1">
+        </div>
+        <div class="button-group">
+            <button type="button" id="prev-question-btn">Previous Question</button>
+            <button type="button" id="next-question-btn">Next Question</button>
+            <button type="button" id="save-quiz-btn">Save Entire Quiz</button>
+        </div>
+    </form>
+
+    <!-- READING BUILDER -->
+    <form id="reading-builder">
+        <h2>Reading Builder (<span id="reading-counter">Page 1</span>)</h2>
+        <input type="text" id="reading-title" placeholder="Reading Material Name">
+        <textarea id="reading-data" placeholder="Paste your reading text or HTML here for this page" rows="10"></textarea>
+        
+        <label for="reading-image-upload">Upload Image for Page:</label>
+        <input type="file" id="reading-image-upload" accept="image/*">
+        <img id="reading-image-preview" src="" style="max-width: 200px; display: none;">
+
+        <div class="button-group">
+            <button type="button" id="prev-page-btn">Previous Page</button>
+            <button type="button" id="next-page-btn">Next Page</button>
+            <button type="button" id="save-reading-btn">Save Entire Reading</button>
+        </div>
+    </form>
+
+    <!-- HTML / COURSE BUILDER -->
+    <form id="html-builder">
+        <h2>Workbook HTML Builder</h2>
+        <input type="text" id="html-title" placeholder="Course Name">
+        <textarea id="html-data" placeholder="Paste HTML Here" rows="15"></textarea>
+        <button type="button" id="save-html-btn">Save Course</button>
+    </form>
+
+    <!-- DATA MANAGEMENT TABLES -->
+    <h3>Saved Courses & Content Library</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Course / Item Title</th>
+                <th>Readings Count</th>
+                <th>Quizzes Count</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="courseTable">
+        </tbody>
+    </table>
+
+
+<script src="newhtml.js"></script>
+</body>
+</html>

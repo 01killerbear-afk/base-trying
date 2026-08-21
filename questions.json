@@ -1,0 +1,1223 @@
+[
+  {
+    "id": 1,
+    "category": "Mobile Crane",
+    "question": "What is the purpose of placing mats or cribbing under outrigger floats?",
+    "options": ["a) Raise the tires off the ground.", "b) Distribute the force over a larger area.", "c) Allow the float to be level with surface.", "d) Raise the operator's cab for better vision."],
+    "answer": 1,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 2,
+    "category": "Mobile Crane",
+    "question": "Where is the best location for leveling a crane?",
+    "options": ["a) Carrier.", "b) Upperworks.", "c) Cab.", "d) Carbody."],
+    "answer": 1,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 3,
+    "category": "Mobile Crane",
+    "question": "Before leveling a mobile crane on outriggers, an operator should ensure:",
+    "options": ["a) the weight of the crane is on all the tires.", "b) there is blocking under the outrigger beams.", "c) there is no weight of the crane bearing on any tires.", "d) there is weight only bearing on some tires."],
+    "answer": 2,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 4,
+    "category":"Mobile Crane",
+    "question": "Operating a mobile crane with a long boom, on uneven ground, what support condition should be considered?",
+    "options": ["a) Blocking under the outrigger beams.", "b) Keeping a 75° angle between cylinder rod and pad.", "c) Keeping a 90° angle between cylinder rod and pad.", "d) Blocking under the front bumper weight."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 5,
+    "category":"Mobile Crane",
+    "question": "When may blocking (cribbing) be placed under outrigger beams on mobile cranes?",
+    "options": ["a) Extending beams.", "b) Increasing capacity.", "c) Improving stability.", "d)  Never approved."],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 6,
+    "category":"Mobile Crane",
+    "question": "Mobile cranes should be level to within what percent of grade?",
+    "options": ["a) 3%", "b) 2%", "c) 5%", "d) 1%"],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 7,
+    "category":"Mobile Crane",
+    "question": "Timber crane mats work best when they are: ",
+    "options": ["a) bolted together.", "b) nailed together.", "c) wired together.", "d) left loose."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 8,
+    "category":"Mobile Crane",
+    "question": "When arriving in the crane at the job site, the operator should first determine the condition of the: ",
+    "options": ["a) cranes setup location.", "b) access roads.", "c) parking lot.", "d) headache ball."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 9,
+    "category":"Mobile Crane",
+    "question": "What surface listed below would NOT be a good location for assembly or setup of a mobile crane? ",
+    "options": ["a) Above compacted fill.", "b) Above highway asphalt.", "c) Above underground vaults.", "d)  Above highway concrete."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 10,
+    "category":"Mobile Crane",
+    "question": "Each outrigger pad and its blocking should be sufficient to support?",
+    "options": ["a) 85% of the load chart.", "b) The total weight of the crane and its load.", "c) The total weight of the crane and its boom.", "d)  75% of the load chart."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 11,
+    "category":"Mobile Crane",
+    "question": "How does high wind affect a mobile crane with a long boom?",
+    "options": ["a) Decreases load line capacity.", "b) Requires you to slip the swing brake. ", "c) Introduces side load onto the boom.", "d)  Has no effect on overall crane capacity."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 12,
+    "category":"Mobile Crane",
+    "question": "When is the only time the outrigger beams should be less than fully extended? ",
+    "options": ["a) The load chart indicates that this is allowed.", "b) There is not enough space to extend the beam. ", "c) The crane is working over the front. ", "d)  The main boom is fully retracted."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 13,
+    "category":"Mobile Crane",
+    "question": "What is the primary purpose for a rooster sheave or auxiliary boom point sheave? ",
+    "options": ["a) Separate the load hoist lines.", "b) Separate the boom hoist lines.", "c) Increase the load radius. ", "d) Decrease the load radius."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 14,
+    "category":"Mobile Crane",
+    "question": "Eccentric main boom tip reeving causes whiclh of the following:",
+    "options": ["a) increased carrier wear.", "b) increased wire rope wear.", "c) twisting of the main boom.", "d) twisting of the superstructure."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 15,
+    "category":"Mobile Crane",
+    "question": "Which type of wire rope listed below is installe on most cranes?",
+    "options": ["a) Right regular lay.", "b) Right alternate lay.", "c) Left regular lay.", "d)  Left alternate lay."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 16,
+    "category":"Mobile Crane",
+    "question": "The hoist drum flange shall extend a minimum pt __ over the top layer of wire rope at all times while crane is in operation. ",
+    "options": ["a) ½ inch.", "b) 1 inch.", "c) 1 ½ inch.", "d) 2 inch."],
+    "answer": 0,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 17,
+    "category":"Mobile Crane",
+    "question": "Which of the following is classified as a standing wire rope? ",
+    "options": ["a) Main hoist line.", "b) Boom hoist line.", "c) Auxiliary hoist line.", "d) Pendant line."],
+    "answer": 3,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 18,
+    "category":"Mobile Crane",
+    "question": "When lifting on outriggers, the floats or pads should always be: ",
+    "options": ["a) sufficient to support three times the applied load. ", "b) raised to touch the tires firmly on the ground.", "c) secured to the outriggers cylinder.", "d) secured to the mats."],
+    "answer": 2,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 19,
+    "category": "Mobile Crane",
+    "question": "How many randomly broken wires in a lay length must there be on a mobile cranes hoist line, before it should be removed from service? ",
+    "options": ["a) 4", "b) 3", "c) 5", "d) 6"],
+    "answer": 3,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 20,
+    "category": "Mobile Crane",
+    "question": "What is the minimum design factor required for a right regular lay, boom or hoist wire rope? ",
+    "options": ["a) 5", "b) 3.5", "c) 2.5", "d) 7"],
+    "answer": 1,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 21,
+    "category": "Mobile Crane",
+    "question": "On a mobile crane, how many broken wires are permitted at the end connection of a pendant before it must be taken out of service? ",
+    "options": ["a) 6", "b) 5", "c) 3", "d) 1"],
+    "answer": 3,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 22,
+    "category":"Mobile Crane",
+    "question": "Type 1 rotation resistant hoist wire rope has a design factor of: ",
+    "options": ["a) 2.5 to 1", "b) 3 to 1", "c) 3.5 to 1", "d) 5 to 1"],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 23,
+    "category":"Mobile Crane",
+    "question": "It is important to know when lubricating crane hoist wire rope, that the lubricant must: ",
+    "options": ["a) not hinder visual inspection.", "b) not be applied in direct sunlight.", "c) not be applied prior to use.", "d) not be applied to regular lay wire rope."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 24,
+    "category":"Mobile Crane",
+    "question": "How often is the competent person required to inspect the running wire ropes on a mobile crane? ",
+    "options": ["a) Each shift.", "b) Each year.", "c) Each week. ", "d) Each month."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 25,
+    "category":"Mobile Crane",
+    "question": "On mobile cranes, how many broken wires must be present in one strand of one lay for running wire rope to be removed from service? ",
+    "options": ["a) 3", "b) 1", "c) 2", "d) 0"],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 26,
+    "category":"Mobile Crane",
+    "question": "How many randomly distributed broken wires in rotation-resistant hoist wire rope are considered for replacement?  ",
+    "options": ["a) 1 broken wire in 6 rope diameters.", "b) 2 broken wires in 30 rope diameters.", "c) 3 broken wires in one strand in one lay.", "d) 2 broken wires in 6 rope diameters."],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 27,
+    "category":"Mobile Crane",
+    "question": "According to OSHA, what is the minimum number of full wraps of wire rope that must remain on hoist drums in all service conditions?",
+    "options": ["a) 1", "b) 5", "c) 2", "d)  4"],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 28,
+    "category":"Mobile Crane",
+    "question": "On whose recommendations should a mobile crane preventative maintenance program be developed? ",
+    "options": ["a) Master mechanic.", "b) Crane operator.", "c) Company supervisor.", "d)  Crane manufacturer."],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 29,
+    "category":"Mobile Crane",
+    "question": "On a mobile crane, the measurement for the load radius is the distance from the center of gravity of the suspended load to the: ",
+    "options": ["a) center of rotation of the crane.", "b) center of gravity on the crane.", "c) tipping axis of the equipment carrier.", "d)  hook rollers on the equipment carrier."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 30,
+    "category":"Mobile Crane",
+    "question": "On a mobile crane, should the load be applied when determining the proper boom angle?",
+    "options": ["a) Yes", "b) No", "c) Maybe", "d) Sometimes"],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 31,
+    "category":"Mobile Crane",
+    "question": "On a mobile cranes range diagram, boom length and boom angle can be used to determine?",
+    "options": ["a) Load weight.", "b) Load radius.", "c) Counterweights.", "d) Gross capacity."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 32,
+    "category":"Mobile Crane",
+    "question": "On a mobile crane, what is the weight of the stowed jib that is deducted in load chart calculations called?",
+    "options": ["a) Actual weight.", "b) Non- deducted weight.", "c) Effective weight.", "d) Non-effective weight."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 33,
+    "category":"Mobile Crane",
+    "question": "When determining boom tip elevation for a mobile crane, the user could:",
+    "options": ["a) call the manufacturer.", "b) use the range diagram.", "c) use the wiring diagram.", "d) call the site supervisor."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 34,
+    "category":"Mobile Crane",
+    "question": "The term net capacity is best defined by which of the terms listed below?",
+    "options": ["a) Net load plus gross capacity.", "b) Capacity deductions minus gross capacity.", "c) Net load minus gross capacity.", "d) Gross capacity minus capacity deductions."],
+    "answer": 3,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 35,
+    "category":"Mobile Crane",
+    "question": "When lifting off the main boom, how is the effective weight of the fly/jib different in the erected position from that of the stowed position?",
+    "options": ["a) Effective weight increases.", "b) Effective weight decreases.", "c) Effective weight is reduced 85%.", "d) Effective weight is reduced 75%."],
+    "answer": 0,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 36,
+    "category":"Mobile Crane",
+    "question": "Mobile cranes that are setup on barges, shall have a list chart provided by which of the entities listed below?",
+    "options": ["a) Crane owner.", "b) Superintendent.", "c) Manufacturer.", "d) Employer."],
+    "answer": 2,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 37,
+    "category": "Mobile Crane",
+    "question": "When lifting loads on tires, mobile cranes are rated at what percentage of tipping?",
+    "options": ["a) 70%", "b) 75%", "c) 80%", "d) 85%"],
+    "answer": 1,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 38,
+    "category": "Mobile Crane",
+    "question": "How does the effective weight of a stowed extension relate to the actual weight of the extension?",
+    "options": ["a) Lower than the actual weight.", "b) Depends on the boom angle.", "c) Higher than the actual weight.", "d) Same as the actual weight."],
+    "answer": 0,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 39,
+    "category": "Mobile Crane",
+    "question": "When load radius is between radii values, the operator must use the:",
+    "options": ["a) shorter radius.", "b) longer radius.", "c) shorter angle.", "d) longer angle."],
+    "answer": 1,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 40,
+    "category":"Mobile Crane",
+    "question": "Why do most crane manufacturers reduce load capacity for duty-cycle operations?",
+    "options": ["a) The maximum load is almost always known.", "b) Dynamic loads are not encountered.", "c) Side loading forces may occur.", "d) Front loading forces may occur."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 41,
+    "category":"Mobile Crane",
+    "question": "Why should only approved attachments or extra counterweights provided by the manufacturer be placed on the rear of crane?",
+    "options": ["a) They could cause a backward stability problem.", "b) The crane will develop a swing problem.", "c) The swing clearance will increase.", "d) The ground pressure will increase."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 42,
+    "category":"Mobile Crane",
+    "question": "A mobile crane's jib is offset 15° versus its original o0 offset, but the boom angle remains unchanged. In this situation, the load radius:",
+    "options": ["a) increases.", "b) remains the same.", "c) decreases.", "d) cannot be determined."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 43,
+    "category":"Mobile Crane",
+    "question": "What is the difference between an anti-two-block warning device and an anti-two-block prevention device?",
+    "options": ["a) Warning device only warns, but prevention devices will stop the functions.", "b) Prevention device only warns, but warning device stops the functions.", "c) Both are the same and serve the same purpose.", "d) Both will warn and stop some dangerous operations."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 44,
+    "category":"Mobile Crane",
+    "question": "How can the LMl's boom length or load radius reading be verified?",
+    "options": ["a) Actual measurements.", "b) No need to verify.", "c) Calibrate the LMI.", "d) Check with superintendent."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 45,
+    "category":"Mobile Crane",
+    "question": "On mobile cranes, what does the boom angle indicator show the operator? ",
+    "options": ["a) Radius of the boom to ground.", "b) Angle of boom to horizontal.", "c) Angle of boom to vertical.", "d) Axis of tipping from centerline."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 46,
+    "category":"Mobile Crane",
+    "question": "What is the device called that automatically stops the boom when it nears the cranes maximum angle?",
+    "options": ["a) Boom hoist limiting.", "b) Boom backstop.", "c) Mechanical boom stop.", "d) Boom hoist pawl."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 47,
+    "category":"Mobile Crane",
+    "question": "When the number of layers of wire rope on a drum increases the:",
+    "options": ["a) allowable line pull decreases.", "b) allowable line pull increases.", "c) allowable line pull remains the same.", "d) allowable line pull can't be calculated."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 48,
+    "category":"Mobile Crane",
+    "question": "On a mobile crane, side loading of the boom could be caused by which of the following?",
+    "options": ["a) Starting or stopping the swing too rapidly.", "b) Raising or lowering the load too rapidly.", "c) Raising or lowering the boom too rapidly.", "d)  Starting or stopping the engine too rapidly."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 49,
+    "category":"Mobile Crane",
+    "question": "Which person listed below, has the responsibility for determining the correct weight of a load? ",
+    "options": ["a) Crane Operator.", "b) Crane Owner.", "c) Lift Director.", "d) Signal person."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 50,
+    "category":"Mobile Crane",
+    "question": "What must an operator do when an operator leaves the controls of the crane for an extended period of time?",
+    "options": ["a) Apply all brakes and dogs, and leave the load suspended.", "b) Apply all brakes and dogs, and lower the load to the ground.", "c) Apply all brakes and dogs, and lower boom to ground.", "d) Apply only swing brake and leave the engine running."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 51,
+    "category":"Mobile Crane",
+    "question": "Abruptly stopping a rapid swing on a long-boom mobile crane will produce what major effect?",
+    "options": ["a) Overheating the swing brake.", "b) Collapsing the boom.", "c) Increasing ground pressure.", "d) Overheating the race and bearings."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 52,
+    "category":"Mobile Crane",
+    "question": "When should a tag line be used, during the hoisting of material?",
+    "options": ["a) When the rotation of the load would be dangerous.", "b) When the rigger is not certain of the loads stability.", "c) When only one signal person is required to signal lift.", "d) When the lift director leaves the lifting area of the crane."],
+    "answer": 0,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 53,
+    "category":"Mobile Crane",
+    "question": "What percentage of the rated capacity of a mobile crane must be used when lifting with two cranes attached to the same load?",
+    "options": ["a) 85%", "b) 75%", "c) 50%", "d) 90%"],
+    "answer": 1,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 54,
+    "category":"Mobile Crane",
+    "question": "When lifting a load with two mobile cranes, it is very important to:",
+    "options": ["a) use only cranes from the same manufacturer.", "b) use only cranes with the same rated capacity.", "c) keep the working radius of both cranes identical.", "d) keep the hoist lines of both cranes vertical."],
+    "answer": 3,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 55,
+    "category": "Mobile Crane",
+    "question": "If lifting a load with two mobile cranes of different rated capacities, the crane with the larger rated capacity should:",
+    "options": ["a) be hooked at an equal distance from the loads center of gravity.", "b) be hooked at a distance closer to the loads center of gravity.", "c) be hooked at the loads center of gravity.", "d) be hooked at a distance farther from the loads center of gravity."],
+    "answer": 1,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 56,
+    "category": "Mobile Crane",
+    "question": "When determining the position to a mobile crane should be left in over night, with high winds in the forecast the operator should:",
+    "options": ["a) tie off to the closest solid structure with the wind in the front.", "b) tie off to the closest solid structure with the wind in the back.", "c) put the crane in weather vane position.", "d) follow manufacturers recommendations."],
+    "answer": 3,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 57,
+    "category": "Mobile Crane",
+    "question": "When performing a multiple crane lift it is important for the operator's of each crane to understand that:",
+    "options": ["a) the weight is equally distributed at all times during the lift.", "b) the weight is never equally distributed during the crane lift.", "c) the weight may increase if the other crane lands the load.", "d) the weight may decrease if the other crane lands the load."],
+    "answer": 2,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 58,
+    "category":"Mobile Crane",
+    "question": "When lifting loads that are submerged under water with a mobile crane, what is one of the conditions that the operator should be familiar with?",
+    "options": ["a) Current can change and cause the crane to tip over.", "b) Brakes or dogs on the crane could get wet and slip.", "c) Boom and extension can't be moved without high tide.", "d) Load will increase when lifting the load out of the water."],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 59,
+    "category":"Mobile Crane",
+    "question": "When lifting over water with a personnel platform, what are the occupants of the platform required to wear?",
+    "options": ["a) A body harness.", "b) A waste Belt.", "c) A flotation device.", "d) A full face respirator."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 60,
+    "category":"Mobile Crane",
+    "question": "If a mobile crane is NOT set-up level and the operator swings the load from the high side to the low side, what effect will that have on the radius?",
+    "options": ["a) The radius will decrease.", "b) The radius stays the same.", "c) The radius can't be calculated.", "d) The radius increase."],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 61,
+    "category":"Mobile Crane",
+    "question": "Increasing the distance from the crane's center of gravity to the tipping axis will have what effect on a mobile crane?",
+    "options": ["a) Increase stability.", "b) Decrease stability.", "c) Increase structural competence.", "d) Decrease structural competence."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 62,
+    "category":"Mobile Crane",
+    "question": "Backward stability of a mobile crane is tested in which configuration listed below?",
+    "options": ["a) Basic boom at maximum angle with maximum load.", "b) Maximum boom at maximum angle with maximum load.", "c) Basic boom at minimum angle with no load.", "d) Basic boom at maximum angle with no load."],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 63,
+    "category":"Mobile Crane",
+    "question": "What is the minimum pitch diameter used for sheaves in a boom hoist reeving system using rotation resistant wire rope?",
+    "options": ["a) Not less than 15 times rope diameter.", "b) Not less than 16 times rope diameter.", "c) Not less than 18 times rope diameter.", "d)  Not less than 20 times rope diameter."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 64,
+    "category":"Mobile Crane",
+    "question": "When can capacity altering modifications be made to mobile cranes?",
+    "options": ["a) Capacity altering modifications may not be made to mobile cranes.", "b) When lifting in the tipping portion of the load chart.", "c) When lifting in the structural portion of the load chart.", "d) When permission is given by the crane manufacturer."],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 65,
+    "category":"Mobile Crane",
+    "question": "A crane is at the point of instability when the crane's leverage on the load equals:",
+    "options": ["a) 100% of the load's leverage on crane.", "b) 90% of the load's leverage on crane.", "c) 85% of the load's leverage on crane.", "d) 75% of the load's leverage on crane."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 66,
+    "category":"Mobile Crane",
+    "question": "Who must determine maximum speed for a mobile crane to travel with a suspended load?",
+    "options": ["a) The competent person.", "b) The job site.", "c) The superintendent.", "d) The craft foreman."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 67,
+    "category":"Mobile Crane",
+    "question": "Deflection of the boom while operating a mobile crane will increase?",
+    "options": ["a) Load radius.", "b) Weight of boom.", "c) Load weight.", "d) Crane stability."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 68,
+    "category":"Mobile Crane",
+    "question": "A sudden start or stop of the hoisting function while operating a mobile crane can produce a: ",
+    "options": ["a) static load.", "b) dynamic load.", "c) eccentric load.", "d) symmetrical load."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 69,
+    "category":"Mobile Crane",
+    "question": "When traveling with a suspended load on a mobile crane climbing an incline, the load should be carried in which direction?",
+    "options": ["a) Uphill.", "b) Downhill.", "c) Both ways.", "d) Never."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 70,
+    "category":"Mobile Crane",
+    "question": "Which mobile crane boom configuration can cause the most hazardous side-loading condition for the crane?",
+    "options": ["a) Short boom with minimum radius.", "b) Long boom with minimum radius.", "c) Short boom at 45° angle.", "d) Long boom at 45° angle."],
+    "answer": 1,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 71,
+    "category":"Mobile Crane",
+    "question": "When preparing to hoist a load, the load block hook should be positioned:",
+    "options": ["a) slightly to the side you're planning to swing.", "b) slightly to the side opposite you plan to swing.", "c) directly above the load's center of gravity.", "d) above the edge of the load closest to the crane."],
+    "answer": 2,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 72,
+    "category":"Mobile Crane",
+    "question": "When making a lift on outriggers, the maximum ground-bearing pressure occurs in which boom position?",
+    "options": ["a) Over the rear.", "b) Over the corner.", "c) Over the front.", "d) Over the side."],
+    "answer": 1,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 73,
+    "category": "Mobile Crane",
+    "question": "When personal platforms are hoisted with a mobile crane what item listed below must be provided? ",
+    "options": ["a) A free fall button.", "b) A load moment indicator.", "c) An anti two-block device.", "d) An anti collision device."],
+    "answer": 2,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 74,
+    "category": "Mobile Crane",
+    "question": "Personnel platforms suspended on the hook of a mobile crane, must not exceed what percentage of a crane's capacity at any given radius?",
+    "options": ["a) 50%", "b) 75%", "c) 100%", "d) 125%"],
+    "answer": 0,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 75,
+    "category": "Mobile Crane",
+    "question": "When proof testing a personnel platform to 125% of its rated capacity, how long must the platform be suspended?",
+    "options": ["a) 1 minute.", "b) 5 minute.", "c) 7 minute.", "d) 10 minute."],
+    "answer": 1,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 76,
+    "category":"Mobile Crane",
+    "question": "Which of the following correctly states the requirements for hooks used to hoist employees on a crane-supported personnel platform?",
+    "options": ["a) Hooks shall have a latch that closes and doesn't lock.", "b) Hooks shall have a latch that closes and locks.", "c) Hooks shall be able to support 25 times their normal rating.", "d) Hooks shall be able to support 20 times their normal rating."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 77,
+    "category":"Mobile Crane",
+    "question": "OSHA permits hoisting of personnel by a crane as long as the employer can show: ",
+    "options": ["a) the prevailing wind speed is less than 35 mph.", "b) there is no less hazardous or practicable way.", "c) all personnel have CPR training and first aid.", "d) all aerial lifts on site are being used that day."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 78,
+    "category":"Mobile Crane",
+    "question": "Before lifting an occupied personnel platform on a jobsite the crew must ensure they perform which of the following?",
+    "options": ["a) Must attend a pre-lift meeting.", "b) Must fully deploy all outriggers.", "c) Must perform a trial lift.", "d) All of the above."],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 79,
+    "category":"Mobile Crane",
+    "question": "Before lifting an occupied personnel platform on a jobsite, which of the following applies?",
+    "options": ["a) Must use 50% of cranes rated capacity.", "b) Must trial lift anticipated load weight.", "c) Must ensure rigging is dedicated to platform only.", "d) All of the above."],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 80,
+    "category":"Mobile Crane",
+    "question": "Which of the following standards or regulations governs the lifting of personnel in construction?",
+    "options": ["a) ASME 830.5.", "b) OSHA 1926.1431.", "c) OSHA 1910.180.", "d) PCSA #4."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 81,
+    "category":"Mobile Crane",
+    "question": "According to OSHA 1926.1431, which device listed below must be attached to the crane?",
+    "options": ["a) Anti-two-block.", "b) Swing-away.", "c) Two-way bridle.", "d) Dead section."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 82,
+    "category":"Mobile Crane",
+    "question": "According to OSHA 1926.1431 , which of these hoist options is prohibited?",
+    "options": ["a) Controlled lowering.", "b) Controlled hoisting.", "c) Hoist free fall.", "d) Hoist governor."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 83,
+    "category":"Mobile Crane",
+    "question": "Inside the personnel platform except for gates, how much of the perimeter must contain a grab rail for the occupants?",
+    "options": ["a) 25 percent.", "b) 50 percent.", "c) 75 percent.", "d) 100 percent."],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 84,
+    "category":"Mobile Crane",
+    "question": "According to OSHA 1926.1431, during personnel platform hoisting operations, access gates shall NOT swing in which direction?",
+    "options": ["a) Inward.", "b) Outward.", "c) Sideward.", "d)  Wayward."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 85,
+    "category":"Mobile Crane",
+    "question": "OSHA 1926.1431 states that tag lines must be used:",
+    "options": ["a) when overload condition exists.", "b) when necessary to control platform.", "c) when platform is in static condition.", "d) when tipping condition exists."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 86,
+    "category":"Mobile Crane",
+    "question": "According to OSHA 1926.1431, while hoisting a personnel platform, what weather condition listed below will promptly discontinue the operation?",
+    "options": ["a) Dark.", "b) Light.", "c) Dangerous.", "d) Normal."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 87,
+    "category":"Mobile Crane",
+    "question": "While hoisting employees in a personnel platform, direct communication must be maintained between the signal person and who?",
+    "options": ["a) Superintendent.", "b) Lift director.", "c) Operator.", "d) Rigger. "],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 88,
+    "category":"Mobile Crane",
+    "question": "According to OSHA 1926.1431, at what wind speed must a qualified person be consulted?",
+    "options": ["a) 10 mph.", "b) 15 mph.", "c) 20 mph.", "d) 25 mph."],
+    "answer": 2,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 89,
+    "category":"Mobile Crane",
+    "question": "If working near power lines and using a tag line, which type of rope is least conductive to electricity?",
+    "options": ["a) Cotton.", "b) Nylon.", "c) Hemp.", "d) Polypropylene."],
+    "answer": 3,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 90,
+    "category":"Mobile Crane",
+    "question": "When working near power lines with a mobile crane, where does OSHA require caution stickers be installed on all equipment?",
+    "options": ["a) On the equipment carrier and on the main boom tip.", "b) On the equipment superstructure and the extension.", "c) At operators station and 2 on the outside of the equipment.", "d) At operators station and 5 on the outside of the equipment.."],
+    "answer": 2,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 91,
+    "category": "Mobile Crane",
+    "question": "According to OSHA table T, what is the minimum clearance for 133kV power lines?",
+    "options": ["a) 4 feet.", "b) 6 feet.", "c) 10 feet.", "d) 15 feet."],
+    "answer": 2,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 92,
+    "category": "Mobile Crane",
+    "question": "According to OSHA, when working near power lines when is a dedicated spotter required?",
+    "options": ["a) When crane moves within 10 ft. of power lines.", "b) When crane moves within 15 ft. of power lines.", "c) When crane operator is unable to see the warning line of signs.", "d) When crane signal person is elevated from crane level."],
+    "answer": 2,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 93,
+    "category": "Mobile Crane",
+    "question": "According to OSHA's table T, what clearance should a mobile crane IN TRANSIT keep while going under 445kV lines?",
+    "options": ["a) 4 feet.", "b) 6 feet.", "c) 10 feet.", "d) 16 feet."],
+    "answer": 3,
+    "explanation": "to be put"
+  },
+
+  {
+    "id": 94,
+    "category":"Mobile Crane",
+    "question": "According to OSHA when is it safe to hoist loads with a mobile crane below energized power lines?",
+    "options": ["a) If a crane is equipped with an isolated link or proximity alarm.", "b) If the crane only raises the boom to a maximum angle of 60 degrees.", "c) When the fully extended boom can't reach the prohibited zone.", "d) The boom is kept 10 feet away from the power line for 360 degrees."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 95,
+    "category":"Mobile Crane",
+    "question": "According to OSHA 1926.1408, when operating near high voltage power lines, what clearance shall be required when the rating of the lines is 275kV?",
+    "options": ["a) 5 feet w/encroachment precautions.", "b) 10 feet w/encroachment precautions.", "c) 15 feet w/encroachment precautions.", "d) 20 feet w/encroachment precautions."],
+    "answer": 3,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 96,
+    "category":"Mobile Crane",
+    "question": "According to OSHA 1926.1411, when you encounter power lines with a voltage of 44 kV and the crane is TRAVELING, according to Table T, what is the minimum required clearance?",
+    "options": ["a) 4.", "b) 6.", "c) 10.", "d) 16."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 97,
+    "category":"Mobile Crane",
+    "question": "According to OSHA 1926.1408, the minimum clearance between any part of the crane and power lines rated 50 kV or below shall be:",
+    "options": ["a) 5 feet w/encroachment precautions.", "b) 10 feet w/encroachment precautions.", "c) 15 feet w/encroachment precautions.", "d) 20 feet w/encroachment precautions."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 98,
+    "category":"Mobile Crane",
+    "question": "According to OSHA 1926.1408, for power lines rated 100 kV, the minimum clearance between the crane and any lines shall be?",
+    "options": ["a) 5 feet w/encroachment precautions.", "b) 10 feet w/encroachment precautions.", "c) 15 feet w/encroachment precautions.", "d) 20 feet w/encroachment precautions."],
+    "answer": 1,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 99,
+    "category":"Mobile Crane",
+    "question": "The term 'jib offset' can be expressed as the jib angle to which mobile crane component listed below?",
+    "options": ["a) Boom.", "b) Forestay.", "c) Pendants.", "d) Gantry."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 100,
+    "category":"Mobile Crane",
+    "question": "On a mobile crane the term 'part's of line' refers to which item listed below?",
+    "options": ["a) The number of wires and strands in the load line.", "b) The number of sheaves mounted on load block and boom point sheaves.", "c) The number of lines running thru the load block and boom point sheaves.", "d)  The number of total sheaves mounted on the crane."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 101,
+    "category":"Mobile Crane",
+    "question": "According to OSHA, mobile crane load block hooks must not have a twist in excess of:",
+    "options": ["a) 0 degrees.", "b) 5 degrees.", "c) 10 degrees.", "d) 15 degrees."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 102,
+    "category":"Mobile Crane",
+    "question": "According to OSHA, mobile crane load block hooks must not have a throat opening in excess of: ",
+    "options": ["a) 5% of its original size.", "b) 8% of its original size.", "c) 10% of its original size.", "d) 15% of its original size."],
+    "answer": 0,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 103,
+    "category":"Mobile Crane",
+    "question": "What is the design factor for grade 80 chain slings?",
+    "options": ["a) 5", "b) 3.6", "c) 4", "d) 7"],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 104,
+    "category":"Mobile Crane",
+    "question": "What grade alloy steel chain should be used for hoisting slings?",
+    "options": ["a) 40", "b) 70", "c) 80", "d) 60"],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 105,
+    "category":"Mobile Crane",
+    "question": "Loads rigged using a basket hitch should be ___ to prevent slippage.",
+    "options": ["a) Suspended.", "b) Static.", "c) Balanced.", "d) Weighed."],
+    "answer": 2,
+    "explanation": "too be put"
+  },
+
+  {
+    "id": 106,
+    "category":"Mobile Crane",
+    "question": "When slings encounter sharp edges on loads to be lifted, riggers shall ensure that slings are:",
+    "options": ["a) protected or padded.", "b) kinked or knotted.", "c) lengthened or shortened.", "d) damaged or defective."],
+    "answer": 0,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 107,
+    "category":"Mobile Crane",
+    "question": "According to OSHA, quadruple sling bridle ratings are the same as:",
+    "options": ["a) triple sling bridle ratings.", "b) double sling bridle ratings.", "c) single sling bridle ratings.", "d) quadruple bridle ratings."],
+    "answer": 0,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 108,
+    "category":"Mobile Crane",
+    "question": "When correctly installing U-bolt type wire rope clips, the U portion of the clip shall be on:",
+    "options": ["a) the dead or short end.", "b) the live or long end.", "c) the live end or dead end.", "d) the live end then the dead end."],
+    "answer": 2,
+    "explanation" : "too be put"
+  },
+
+  {
+    "id": 109,
+    "category": "Mobile Crane",
+    "question": "Which statement listed below is correct about basic load rigging?",
+    "options": ["a) As horizontal load angle increases, stress increases.", "b) As horizontal load angle decreases, load decreases.", "c) As horizontal load angle decreases, stress increases.", "d) As horizontal load angle increases, load increases."],
+    "answer": 2,
+    "explanation": "Reference: Pg 82. "
+  },
+
+  {
+    "id": 110,
+    "category": "Mobile Crane",
+    "question": "The approximate percentage of strength of choker, vertical, and basket hitches respectively are:",
+    "options": ["a) 50%, 75%, 100%.", "b) 75%, 100%, 200%.", "c) 75%, 90%, 100%.", "d) 50%, 100%, 200%."],
+    "answer": 1,
+    "explanation": "Reference: Pg 82. "
+  },
+  
+  {
+    "id": 111,
+    "category": "Mobile Crane",
+    "question": "According to ASME which of the following listed below shall NOT be used for the suspension system on suspended personnel platforms?",
+    "options": ["a) Wire rope bridle.", "b) Alloy steel chain bridle.", "c) Synthetic web bridle.", "d) Wire rope slings."],
+    "answer": 2,
+    "explanation": "Reference: Pg 87. "
+  },
+  
+  {
+    "id": 112,
+    "category": "Mobile Crane",
+    "question": "When rigging a bundle of pipe or tubing, which of the following would provide the best contact between sling and load?",
+    "options": ["a) Double vertical.", "b) Single leg choker.", "c) Double wrap choker.", "d) Single basket."],
+    "answer": 2,
+    "explanation": "Reference: Pg 82. "
+  },
+  
+  {
+    "id": 113,
+    "category": "Mobile Crane",
+    "question": "What is the angle between the top of the load and the sling leg referred to in sling load charts?",
+    "options": ["a) Vertical sling angle.", "b) Included sling angle.", "c) Working sling angle.", "d) Horizontal sling angle."],
+    "answer": 3,
+    "explanation": "Reference: Pg 82."
+  },
+  
+  {
+    "id": 114,
+    "category": "Mobile Crane",
+    "question": "When installing a wedge socket, it must be attached with the load line pulling in a straight line from the:",
+    "options": ["a) shank.", "b) point.", "c) pin.", "d) wedge."],
+    "answer": 2,
+    "explanation": "Reference: Pg 90. "
+  },
+  
+  {
+    "id": 115,
+    "category": "Mobile Crane",
+    "question": "For any signal other than emergency stop, who is permitted to give hand signals to the crane operator during a lift?",
+    "options": ["a) A qualified crane inspector.", "b) A qualified crane operator.", "c) A qualified material rigger.", "d) A qualified signal person."],
+    "answer": 3,
+    "explanation": "Reference: Pg 71."
+  },
+  
+  {
+    "id": 116,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Stop.", "b) Hoist.", "c) Move slowly.", "d) Use whipline."],
+    "answer": 2,
+    "explanation": "Reference: Pg 73."
+  },
+  
+  {
+    "id": 117,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Use whipline.", "b) Travel.", "c) Use main hoist.", "d) Retract boom."],
+    "answer": 0,
+    "explanation": "Reference: Pg 73."
+  },
+  
+  {
+    "id": 118,
+    "category": "Mobile Crane",
+    "question": "What is the first element of voice signals given to a crane operator prior to the lift?",
+    "options": ["a) Distance and Speed.", "b) Function and Direction.", "c) Speed and/or Distance.", "d) Function stop."],
+    "answer": 1,
+    "explanation": "Reference: Pg 71."
+  },
+  
+  {
+    "id": 119,
+    "category": "Mobile Crane",
+    "question": "According to OSHA, each series of voice signals contain how many elements?",
+    "options": ["a) Two.", "b) One.", "c) Three.", "d) Four."],
+    "answer": 2,
+    "explanation": "Reference: Pg 71."
+  },
+  
+  {
+    "id": 120,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Stop.", "b) Hoist.", "c) Lower.", "d) Lower boom."],
+    "answer": 2,
+    "explanation": "Reference: Pg 72."
+  },
+  
+  {
+    "id": 121,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Lower.", "b) Swing.", "c) Stop.", "d) Travel."],
+    "answer": 1,
+    "explanation": "Reference: Pg 72."
+  },
+  
+  {
+    "id": 122,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Stop.", "b) Travel. (1 Track)", "c) Raise boom and lower load.", "d) Lower boom and raise load."],
+    "answer": 3,
+    "explanation": "Reference: Pg 73."
+  },
+  
+  {
+    "id": 123,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Stop.", "b) Travel.", "c) Extend boom.", "d) Emergency stop."],
+    "answer": 3,
+    "explanation": "Reference: Pg 72."
+  },
+  
+  {
+    "id": 124,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Swing.", "b) Retract boom.", "c) Lower boom.", "d) Lower."],
+    "answer": 2,
+    "explanation": "Reference: Pg 72."
+  },
+  
+  {
+    "id": 125,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Move Slowly.", "b) Dog Everything.", "c) Boom Down.", "d) Boom."],
+    "answer": 1,
+    "image": "images/125.jpg",
+    "explanation": "Reference: Pg 72."
+  },
+  
+  {
+    "id": 126,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Raise boom, lower load.", "b) Extend boom.", "c) Lower boom, raise load.", "d) Hoist."],
+    "answer": 0,
+    "image": "images/126.jpg",
+    "explanation": "Reference: Pg 72."
+  },
+  
+  {
+    "id": 127,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Swing.", "b) Emergency stop.", "c) Travel.", "d) Stop."],
+    "answer": 3,
+    "image": "images/127.jpg",
+    "explanation": "Reference: Pg 72."
+  },
+  
+  {
+    "id": 128,
+    "category": "Mobile Crane",
+    "question": "When directing a crane using voice signals the transmission must be through a channel that is:",
+    "options": ["a) dedicated.", "b) multiple.", "c) hard wired.", "d) job wired."],
+    "answer": 0,
+    "explanation": "Reference: Pg 71."
+  },
+  
+  {
+    "id": 129,
+    "category": "Mobile Crane",
+    "question": "Before commencing lifting operations, the operator and signal person must contact and identify each other when using which form of communication?",
+    "options": ["a) Hand signals.", "b) Special signals.", "c) Voice signals.", "d) Basic signals."],
+    "answer": 2,
+    "explanation": "Reference: Pg 71."
+  },
+  
+  {
+    "id": 130,
+    "category": "Mobile Crane",
+    "question": "According to OSHA where must a signal chart be posted?",
+    "options": ["a) Electronically in the main office.", "b) Inside the lifting equipment's operator's station.", "c) Inside the lifting equipment's operator's manual.", "d) On the equipment or in the area of the hoisting operation."],
+    "answer": 3,
+    "explanation": "Reference: Pg 71."
+  },
+  
+  {
+    "id": 131,
+    "category": "Mobile Crane",
+    "question": "How many audible travel signals are there?",
+    "options": ["a) 3.", "b) 2.", "c) 5.", "d) 4."],
+    "answer": 0,
+    "explanation": "Reference: Pg 71."
+  },
+  
+  {
+    "id": 132,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Extend boom.", "b) Use main hoist.", "c) Raise boom.", "d) Use whipline."],
+    "answer": 1,
+    "image": "images/132.jpg",
+    "explanation": "Reference: Pg 73."
+  },
+  
+  {
+    "id": 133,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Swing.", "b) Hoist.", "c) Move slowly.", "d) Lower."],
+    "answer": 1,
+    "image": "images/133.jpg",
+    "explanation": "Reference: Pg 72."
+  },
+  
+  {
+    "id": 134,
+    "category": "Mobile Crane",
+    "question": "Select the correct OSHA Standard Method Hand Signal that matches the illustration.",
+    "options": ["a) Hoist.", "b) Lower boom.", "c) Raise boom.", "d) Swing."],
+    "answer": 2,
+    "image": "images/134.jpg",
+    "explanation": "Reference: Pg 72."
+  },
+  
+  {
+    "id": 135,
+    "category": "Mobile Crane",
+    "question": "Select the correct ASME Standard Hand Signal that matches the illustration.",
+    "options": ["a) Lower boom.", "b) Lower boom and raise load.", "c) Extend boom and lower load.", "d) Extend boom."],
+    "answer": 4,
+    "image": "images/135.jpg",
+    "explanation": "Reference: Pg 73."
+  }
+]

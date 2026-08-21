@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice-test.css">
+</head>
+<body>
+<header>
+    <nav class="nav-left">
+        <ul>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Courses ▾</a>
+                <ul class="dropdown-content" id="course-list">
+                    <li><a href="index.html">Mobile Crane</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    
+    <nav class="nav-right">
+        <ul>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Menu ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="ironworks.html">Iron Works</a></li>
+                    <li><a href="index.html">474 Crane Operators</a></li>
+                    <li><a href="pipe-fitters.html">Pipe Fitters</a></li>
+                    <li><a href="newhtml.html">Add New Content</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <h1>Practice Test</h1>
+        <div id="quiz-container"></div>
+    
+        <button id="submit-btn" onclick="checkAnswer()">Submit Answer</button>
+        <button id="next-btn" onclick="nextQuestion()" style="display:none;">Next Question</button>
+    
+        <div id="explanation-box" style="display:none; margin-top: 20px; padding: 15px; border: 1px solid #ccc;">
+            <p id="explanation-text"></p>
+            <a id="reference-link" href="#" target="_blank" class="button">Go to Reference</a>
+        </div>
+    </main>
+
+<script src="practice-test.js"></script>
+</body>
+</html>

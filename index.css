@@ -1,0 +1,90 @@
+footer{
+    background:#000;
+    padding:30px;
+    text-align: center;
+    font-size: x-large;
+}
+
+header {
+    background: rgb(182, 180, 180);
+    padding: 15px 25px;
+    display: flex;             /* This enables flexbox */
+    justify-content: space-between; /* Pushes items to opposite ends */
+    align-items: center;       /* Centers items vertically */
+}
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header img {
+    max-width: 80px;           /* Slightly smaller logo for header flow */
+    display: block;
+}
+
+.dropbtn {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background: #ccc;
+    border-radius: 5px;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin:0;
+    background:#111;
+    color:white;
+    text-align:center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    list-style: none;
+    padding: 0;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li a {
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    padding: 5px 40px 10px 40px;
+    font-size: 25px;   
+    border-radius: 8px;
+    border: none;
+    width: 75%;
+    text-decoration: none;
+    color: white;
+    background-color: #494949;
+}
+
+.stats-box {
+    border: 9px solid #333;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.hidden {
+  display: none !important;
+}

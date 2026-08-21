@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #error-message {
+        display: none;
+        background-color: #ffdddd;
+        color: #990000;
+        border: 1px solid #cc0000;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <header>
+    <nav class="nav-left">
+        <ul>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Courses ▾</a>
+                <ul class="dropdown-content" id="course-list">
+                    <li><a href="index.html">Mobile Crane</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="nav-right">
+        <ul>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Menu ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="ironworks.html">Iron Works</a></li>
+                    <li><a href="index.html">474 Crane Operators</a></li>
+                    <li><a href="pipe-fitters.html">Pipe Fitters</a></li>
+                    <li><a href="newhtml.html">Add New Content</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<form>
+    <label>Username</label><br>
+    <input type="text" id="blocknumber"><br><br>
+
+    <label>Password</label><br>
+    <input type="password" id="password"><br><br>
+
+    <div id="error-message"></div>
+
+    <button type="button" onclick="login()">Login</button>
+</form>
+
+<br>
+
+<a href="forgot.html">Forgot Username or Password?</a>
+
+<footer ondblclick="triggerAdminLogin()" style="cursor: default; color: #666; text-align: center; padding: 20px;">
+    <p>&copy; 2026 Course App. All rights reserved.</p>
+</footer>
+
+<script src="login.js"></script>
+
+</body>
+</html>
