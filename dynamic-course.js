@@ -1,17 +1,29 @@
-import { collection, getDocs, query, where } from "firebase/firestore";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+import { getFirestore, collection, getDocs, query, where } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCrGB_L_18KW1ANjj70-CTlnuXMmoNbIN4",
+  authDomain: "training-app-8e422.firebaseapp.com",
+  projectId: "training-app-8e422",
+  storageBucket: "training-app-8e422.firebasestorage.app",
+  messagingSenderId: "639003722761",
+  appId: "1:639003722761:web:7a8689e114e31698eea4d8",
+  measurementId: "G-ZB0422TCGK"
+};
+
+const app = initializeApp(firebaseConfig);
+window.db = getFirestore(app);
 
 const params = new URLSearchParams(window.location.search);
 const courseName = params.get("course");
 
 document.getElementById("course-title").textContent = courseName ? courseName : "Course Hub";
 
-// Global variables to hold our cloud data
 let activeReadingPages = [];
 let currentReadingIndex = 0;
 let activeQuizQuestions = [];
 let currentQuizIndex = 0;
 
-// Initialize and load everything from Firestore when the page loads
 async function initializeCourseHub() {
     if (!window.db) {
         console.error("Firestore database not initialized yet.");
@@ -56,7 +68,6 @@ async function initializeCourseHub() {
             }
         });
 
-        // Now that data is loaded, render the initial views
         renderQuizQuestion();
         renderReadingPage();
         displayStats();
@@ -67,18 +78,7 @@ async function initializeCourseHub() {
     }
 }
 
-// Run initialization on page load
 window.addEventListener("DOMContentLoaded", initializeCourseHub);
-
-document.getElementById("course-title").textContent = courseName ? courseName : "Course Hub";
-
-// Load Custom Course HTML
-const customHtmlDiv = document.getElementById("course-custom-html");
-if (course && course.html) {
-    customHtmlDiv.innerHTML = course.html;
-} else {
-    customHtmlDiv.innerHTML = "<p>No custom course layout provided.</p>";
-}
 
 // Toggle Hub Sections
 function openSection(type) {
@@ -103,11 +103,10 @@ function openSection(type) {
 }
 
 // --- Reading Logic ---
-let activeReadingPages = (courseReadings.length > 0 && courseReadings[0].pages) ? courseReadings[0].pages : [];
-let currentReadingIndex = 0;
-
 function renderReadingPage() {
     const pageBox = document.getElementById("reading-page-box");
+    if (!pageBox) return;
+
     if (activeReadingPages.length === 0) {
         pageBox.innerHTML = "<p>No reading pages available for this course.</p>";
         return;
@@ -116,7 +115,6 @@ function renderReadingPage() {
     const pageData = activeReadingPages[currentReadingIndex];
     let imageHtml = "";
     
-    // Check if the current reading page has an image stored and render it
     if (pageData.image) {
         imageHtml = `<div style="margin: 15px 0;"><img src="${pageData.image}" style="max-width: 100%; height: auto; border-radius: 4px;"></div>`;
     }
@@ -136,15 +134,10 @@ function changeReadingPage(direction) {
 }
 
 // --- Quiz Logic ---
-let activeQuizQuestions = [];
-courseQuizzes.forEach(qb => {
-    if (qb.questions) activeQuizQuestions = activeQuizQuestions.concat(qb.questions);
-});
-let currentQuizIndex = 0;
-
 function renderQuizQuestion() {
     const qBox = document.getElementById("quiz-question-box");
     const optBox = document.getElementById("quiz-options-box");
+    if (!qBox || !optBox) return;
     
     if (activeQuizQuestions.length === 0) {
         qBox.innerHTML = "<p>No practice questions available for this course.</p>";
@@ -155,7 +148,6 @@ function renderQuizQuestion() {
     const q = activeQuizQuestions[currentQuizIndex];
     let imageHtml = "";
     
-    // Check if the current quiz question has an image stored and render it
     if (q.image) {
         imageHtml = `<div style="margin: 15px 0;"><img src="${q.image}" style="max-width: 100%; height: auto; border-radius: 4px;"></div>`;
     }
@@ -188,7 +180,6 @@ function checkAnswer(selectedIndex, correctIndex, selectedElement) {
 
     const feedback = document.getElementById("quiz-feedback");
     const currentQ = activeQuizQuestions[currentQuizIndex];
-    
     const correctAnsText = currentQ.options[correctIndex];
 
     if (selectedIndex === correctIndex) {
@@ -202,11 +193,9 @@ function checkAnswer(selectedIndex, correctIndex, selectedElement) {
         feedback.style.color = "#dc3545";
         
         let errorMsg = `Incorrect. The correct answer is: "${correctAnsText}". ${currentQ.explanation || ""}`;
-        
         if (currentQ.page !== undefined && currentQ.page !== "") {
             errorMsg += ` <a href="#" onclick="jumpToReading(${currentQ.page}); return false;" style="color: #8ab4f8; text-decoration: underline;">Jump to Page ${Number(currentQ.page) + 1} in Reading</a>`;
         }
-        
         feedback.innerHTML = errorMsg;
     }
 
@@ -227,26 +216,16 @@ function nextQuizQuestion() {
 
 function jumpToReading(pageIndex) {
     openSection('reading');
-    
     currentReadingIndex = pageIndex;
-    
     if (currentReadingIndex < 0) currentReadingIndex = 0;
     if (currentReadingIndex >= activeReadingPages.length) currentReadingIndex = activeReadingPages.length - 1;
-    
     renderReadingPage();
 }
-
-document.addEventListener("DOMContentLoaded", displayStats);
-
-document.querySelector('.dropbtn').addEventListener('click', function(e) {
-    e.preventDefault(); 
-    let content = this.nextElementSibling;
-    content.style.display = (content.style.display === "block") ? "none" : "block";
-});
 
 function displayStats() {
     const score = JSON.parse(localStorage.getItem("quizScore"));
     const gradeSection = document.getElementById("grade");
+    if (!gradeSection) return;
     
     if (!score || score.answered === 0) {
         gradeSection.innerHTML = "<p>No practice tests completed yet.</p>";
@@ -254,7 +233,6 @@ function displayStats() {
     }
 
     const percentage = Math.round((score.correct / score.answered) * 100);
-    
     gradeSection.innerHTML = `
         <div class="stats-box">
             <h3>Your Progress</h3>
@@ -270,25 +248,31 @@ function resetStats() {
     displayStats();
 }
 
-function updateCourseMenu() {
+async function updateCourseMenu() {
     const courseList = document.getElementById("course-list");
     if (!courseList) return;
 
     courseList.innerHTML = `<li><a href="index.html">Mobile Crane</a></li>`;
 
-    const courses = JSON.parse(localStorage.getItem("quizLibrary")) || [];
-
-    courses.forEach(course => {
-        const li = document.createElement("li");
-        const a = document.createElement("a");
-        a.href = `dynamic-course.html?course=${encodeURIComponent(course.title)}`;
-        a.textContent = course.title;
-        li.appendChild(a);
-        courseList.appendChild(li);
-    });
+    try {
+        const querySnapshot = await getDocs(collection(window.db, "courses"));
+        querySnapshot.forEach((docSnap) => {
+            const course = docSnap.data();
+            const li = document.createElement("li");
+            const a = document.createElement("a");
+            a.href = `dynamic-course.html?course=${encodeURIComponent(course.title)}`;
+            a.textContent = course.title;
+            li.appendChild(a);
+            courseList.appendChild(li);
+        });
+    } catch (error) {
+        console.error("Error loading courses for menu:", error);
+    }
 }
 
-window.onload = function() {
-    updateCourseMenu();
-    displayStats();
-};
+// --- Expose Functions Globally for HTML Buttons ---
+window.openSection = openSection;
+window.changeReadingPage = changeReadingPage;
+window.nextQuizQuestion = nextQuizQuestion;
+window.jumpToReading = jumpToReading;
+window.resetStats = resetStats;
