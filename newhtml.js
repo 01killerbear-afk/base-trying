@@ -381,6 +381,7 @@ function editQuiz(id) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+// Initial Load on DOM Ready
 document.addEventListener("DOMContentLoaded", () => {
     loadCurrentQuizQuestionToDOM();
     loadCurrentReadingPageToDOM();
