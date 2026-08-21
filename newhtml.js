@@ -295,36 +295,57 @@ async function loadTable() {
 
         table.innerHTML = "";
 
+        // Helper to append rows safely with event listeners
         courseSnapshot.forEach(docSnap => {
             const course = { id: docSnap.id, ...docSnap.data() };
             loadedCourses.push(course);
             if (!course.html && !course.title) return;
+            
             const row = document.createElement("tr");
             row.innerHTML = `
                 <td><a href="dynamic-course.html?course=${encodeURIComponent(course.title)}" target="_blank">[Course] ${course.title}</a></td>
                 <td>${course.readings ? course.readings.length : 0}</td>
                 <td>${course.quizzes ? course.quizzes.length : 0}</td>
-                <td>
-                    <button onclick="editHtmlCourse('${course.id}')">Edit</button>
-                    <button onclick="deleteItem('courses', '${course.id}')">Delete</button>
-                </td>
+                <td class="action-cell"></td>
             `;
+            const actionCell = row.querySelector(".action-cell");
+            
+            const editBtn = document.createElement("button");
+            editBtn.textContent = "Edit";
+            editBtn.onclick = () => editHtmlCourse(course.id);
+            
+            const delBtn = document.createElement("button");
+            delBtn.textContent = "Delete";
+            delBtn.onclick = () => deleteItem('courses', course.id);
+            
+            actionCell.appendChild(editBtn);
+            actionCell.appendChild(delBtn);
             table.appendChild(row);
         });
 
         readingSnapshot.forEach(docSnap => {
             const read = { id: docSnap.id, ...docSnap.data() };
             loadedReadings.push(read);
+            
             const row = document.createElement("tr");
             row.innerHTML = `
                 <td>[Reading] ${read.title}</td>
                 <td>${read.pages ? read.pages.length : 1} Pages</td>
                 <td>0</td>
-                <td>
-                    <button onclick="editReading('${read.id}')">Edit</button>
-                    <button onclick="deleteItem('readings', '${read.id}')">Delete</button>
-                </td>
+                <td class="action-cell"></td>
             `;
+            const actionCell = row.querySelector(".action-cell");
+            
+            const editBtn = document.createElement("button");
+            editBtn.textContent = "Edit";
+            editBtn.onclick = () => editReading(read.id);
+            
+            const delBtn = document.createElement("button");
+            delBtn.textContent = "Delete";
+            delBtn.onclick = () => deleteItem('readings', read.id);
+            
+            actionCell.appendChild(editBtn);
+            actionCell.appendChild(delBtn);
             table.appendChild(row);
         });
 
@@ -332,16 +353,26 @@ async function loadTable() {
             const quiz = { id: docSnap.id, ...docSnap.data() };
             loadedQuizzes.push(quiz);
             if (!quiz.questions) return;
+            
             const row = document.createElement("tr");
             row.innerHTML = `
                 <td>[Quiz] ${quiz.title}</td>
                 <td>0</td>
                 <td>${quiz.questions.length} Questions</td>
-                <td>
-                    <button onclick="editQuiz('${quiz.id}')">Edit</button>
-                    <button onclick="deleteItem('quizzes', '${quiz.id}')">Delete</button>
-                </td>
+                <td class="action-cell"></td>
             `;
+            const actionCell = row.querySelector(".action-cell");
+            
+            const editBtn = document.createElement("button");
+            editBtn.textContent = "Edit";
+            editBtn.onclick = () => editQuiz(quiz.id);
+            
+            const delBtn = document.createElement("button");
+            delBtn.textContent = "Delete";
+            delBtn.onclick = () => deleteItem('quizzes', quiz.id);
+            
+            actionCell.appendChild(editBtn);
+            actionCell.appendChild(delBtn);
             table.appendChild(row);
         });
 
