@@ -18,8 +18,6 @@ const db = getFirestore(app);
 
 window.db = db;
 
-
-
 document.querySelector('.dropbtn').addEventListener('click', function(e) {
     e.preventDefault(); 
     let content = this.nextElementSibling;
@@ -54,15 +52,11 @@ function resetStats() {
 
 document.addEventListener("DOMContentLoaded", displayStats);
 
-
-import { collection, getDocs } from "firebase/firestore";
-
 async function updateCourseMenu() {
     const courseList = document.getElementById("course-list");
     courseList.innerHTML = `<li><a href="index.html">Mobile Crane</a></li>`;
 
     try {
-        // Fetch custom courses from Firestore 'courses' collection
         const querySnapshot = await getDocs(collection(window.db, "courses"));
         
         querySnapshot.forEach((doc) => {
