@@ -85,6 +85,44 @@ header {
     align-items: center;       
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000; 
+    border-radius: 4px;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-content li a {
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
+
+.dropdown-content li a:hover {
+    background-color: #ddd;
+}
+
 header nav ul {
     list-style: none;
     padding: 0;
