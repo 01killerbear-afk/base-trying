@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #111; /* This eliminates the white background bleed at the bottom */
+    background-color: #111;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    flex: 1; /* Forces main to expand and push the footer down */
+    flex: 1; 
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     background: #111;
@@ -86,14 +86,17 @@ header img {
 }
 
 .button {
-    padding: 5px 40px 10px 40px;
-    font-size: 25px;   
+    padding: 12px 30px;
+    font-size: 20px;    
     border-radius: 8px;
     border: none;
-    width: 75%;
+    width: 100%;
+    max-width: 350px;
     text-decoration: none;
     color: white;
     background-color: #494949;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .stats-box {
