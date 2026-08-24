@@ -1,3 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #111; 
+}
+
+
+main {
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
 footer{
     background:#000;
     padding:30px;
@@ -8,9 +32,9 @@ footer{
 header {
     background: rgb(182, 180, 180);
     padding: 15px 25px;
-    display: flex;             /* This enables flexbox */
-    justify-content: space-between; /* Pushes items to opposite ends */
-    align-items: center;       /* Centers items vertically */
+    display: flex;            
+    justify-content: space-between; 
+    align-items: center;       
 }
 
 
@@ -21,7 +45,7 @@ header nav ul {
 }
 
 header img {
-    max-width: 80px;           /* Slightly smaller logo for header flow */
+    max-width: 80px;
     display: block;
 }
 
@@ -34,14 +58,8 @@ header img {
     background: #ccc;
     border-radius: 5px;
 }
-main{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    margin:0;
-    background:#111;
-    color:white;
-    text-align:center;
-}
+
+
 
 .dropdown-content {
     display: none;
